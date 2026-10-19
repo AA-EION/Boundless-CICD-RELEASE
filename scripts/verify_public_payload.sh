@@ -3,7 +3,7 @@ set -euo pipefail
 
 DIR="${1:?directory to verify}"
 
-ALLOWED='^Boundless-.*-(Setup|Installer)\.exe$|\.(msi|dmg)$|^SIGNING-(windows|macos)\.txt$|^SHA256SUMS\.txt$'
+ALLOWED='^Boundless-.*-(Setup|Installer)\.exe$|\.dmg$'
 
 FAILED=0
 COUNT=0
