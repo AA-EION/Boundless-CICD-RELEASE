@@ -26,7 +26,7 @@ Before uploading a release directory, verify that only permitted installer files
 ./scripts/verify_public_payload.sh <release-files-dir>
 ```
 
-Use `docs/RELEASE-TEMPLATE.md` (or `docs/RELEASE-v1.0.0.md`) to compose the release notes.
+Use `docs/RELEASE-TEMPLATE.md` to compose the release notes.
 
 ## Testing a change
 
