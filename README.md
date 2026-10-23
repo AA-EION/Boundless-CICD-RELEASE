@@ -39,6 +39,8 @@ Every meter you need, unified in one plug-in file per format.
 
 Each release includes SHA-256 checksums and platform signing details in the release notes.
 
+Every release also carries `release-manifest.json`, which the EION Studios plug-in store and Launcher read to know which platforms the release offers and to verify each installer's SHA-256. A platform missing from it is shown as not available.
+
 ---
 
 ## Supported Formats
